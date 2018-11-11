@@ -11,10 +11,10 @@ menu:
   About: about
 rss: /atom.xml
 
-since: 2013
+since: 2016
 
 # Set default keywords (Use a comma to separate)
-keywords: ""
+keywords: "王振超, 小米, 阿里, 武汉大学, 指间, 指间数据"
 
 # Put your favicon.ico into `hexo-site/themes/hiero/source/` directory.
 favicon: css/images/favicon.ico
@@ -57,7 +57,7 @@ widgets:
 - social
 - recent_posts
 - category
-- tag
+# - tag
 - tagcloud
 - archive
 
@@ -65,7 +65,7 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/iTimeTraveler
+  Github: https://github.com/plotor
   Weibo: http://www.yoursite.com
   Twitter: 
   Facebook: 
@@ -109,7 +109,7 @@ valine:
 # Available value:
 #    default | normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: default
+highlight_theme: night bright
 
 
 
