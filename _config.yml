@@ -81,7 +81,7 @@ search:
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname:
 disqus_shortname:
-livere_shortname:
+livere_shortname: 
 uyan_uid:
 wumii:
 gitment:
@@ -101,7 +101,7 @@ valine:
 
 ### 畅言评论
 changyan:
-  enable: true
+  enable: false
   appid: cysVsEtac
   appkey: 966bea4f406651be0a6c237e63a2cd51
 
