@@ -39,6 +39,11 @@
         </div>
       <% } else { %>
         <%- post.content %>
+        <!-- addthis -->
+        <%if(theme.addthis.enable){%>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script> 
+            <div class="addthis_inline_share_toolbox"></div>
+        <%}%>
       <% } %>
     </div>
     <footer class="entry-meta entry-footer">
@@ -48,7 +53,7 @@
         <%- partial('donate') %>
       <% } %>
             
-      <% if (!index && post.comments && (theme.gentie_productKey || theme.duoshuo_shortname || theme.disqus_shortname || theme.uyan_uid || theme.wumii || theme.livere_shortname || theme.gitment.owner)){ %>
+      <% if (!index){ %>
         <%- partial('comment') %>
       <% } %>
     </footer>

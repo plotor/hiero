@@ -1059,6 +1059,11 @@ body.search .page .entry-footer {
 .site-sidebar .widget_search .search-form {
 	margin: 15px 0;
 	}
+
+.search-form label {
+	border-bottom: 1px solid;
+    }
+
 .site-sidebar .widget_search .search-field {
 	float: left;
 	width: 68%;
@@ -1151,10 +1156,10 @@ body.search .page .entry-footer {
 	color: #ff2828;
 	}
 .site-info {
-	float: left;
+	float: right;
 	}
 .site-credit {
-	float: right;
+	float: left;
 	}
 
 /* RESPONSIVE SUPPORT
