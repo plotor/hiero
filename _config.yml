@@ -56,6 +56,7 @@ widgets:
 # - tag
 - tagcloud
 - archive
+- link
 
 # Social Links
 # Key is the name of FontAwsome icon.
@@ -70,6 +71,7 @@ social:
 #  Instagram:
 #  Pinterest:
 #  Flickr:
+
 
 # Search
 search:
