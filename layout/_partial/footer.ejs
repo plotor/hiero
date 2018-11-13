@@ -4,18 +4,20 @@
   <% } %>
 
   <div class="clearfix container">
-  <div class="site-credit">
+    <!-- <div class="site-credit">
         Powered by <a href="https://hexo.io" target="_blank">hexo</a>&nbsp;&nbsp;&amp;&nbsp;&nbsp;
         <%= __('theme_by') %> <a href="https://github.com/plotor/hiero" target="_blank">hiero</a>
-      </div>
-      <div class="site-info">
-	      Copyright &copy; 2015-<%= date(new Date(), 'YYYY') %> <%= config.author %> All Rights Reserved. 浙ICP备&nbsp;<a class="copyright-links" href="http://www.miitbeian.gov.cn/" target="_blank">16010916</a>&nbsp;号
+    </div> -->
+    <div class="site-info">
+        Powered by <a href="https://hexo.io" target="_blank">hexo</a>&nbsp;&amp;
+        <%= __('theme_by') %> <a href="https://github.com/plotor/hiero" target="_blank">hiero</a>
+	      &nbsp;&nbsp;Copyright &copy; 2015-<%= date(new Date(), 'YYYY') %> 浙ICP备&nbsp;<a class="copyright-links" href="http://www.miitbeian.gov.cn/" target="_blank">16010916</a> &nbsp;号，<%= config.title %> All Rights Reserved.
           <!-- <% if (theme.busuanzi_analytics){ %>
             <span id="busuanzi_container_site_uv">
               历史访问&nbsp;<span id="busuanzi_value_site_uv"></span>&nbsp;人次，总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;次
             </span>
           <% } %> -->
-      </div>
+    </div>
   </div>
 </footer>
 

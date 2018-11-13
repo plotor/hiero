@@ -1,5 +1,36 @@
 /*
-type your custom css here
-在本文件键入您的自定义CSS
-升级主题文件时请注意保护本文件，防止意外覆盖。
+	type your custom css here
+	在本文件键入您的自定义CSS
+	升级主题文件时请注意保护本文件，防止意外覆盖。
 */
+
+.article-header h1 {
+	font-size: 28px;
+}
+
+td .gutter .line {
+    white-space: nowrap;
+}
+
+.article-entry .highlight .line {
+    white-space: pre;
+}
+
+.article-entry .highlight table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.article-entry .highlight table .gutter {
+    width: 50px;
+}
+
+.article-entry .caption {
+	display: none;
+}
+
+.site-info {
+	clear: both;
+	float: none;
+	text-align: center;
+}
