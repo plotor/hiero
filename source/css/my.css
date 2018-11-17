@@ -42,3 +42,7 @@ td .gutter .line {
 .article-entry .highlight table .gutter {
     display: none;
 }
+
+.declaration {
+    color: #FF2828;
+}

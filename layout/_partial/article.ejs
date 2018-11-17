@@ -39,11 +39,20 @@
         </div>
       <% } else { %>
         <%- post.content %>
-        <!-- addthis -->
-        <%if(theme.addthis.enable){%>
-            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script> 
-            <div class="addthis_inline_share_toolbox"></div>
-        <%}%>
+        <!-- copyright -->
+        <% if (!index && is_post()){ %>
+            <% if (theme.declaration.enable){ %>
+                <div class="declaration">
+                    <hr/><%= theme.declaration.title %> : <%= theme.declaration.tip %><br/>
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议</a>
+                </div>
+            <% } %>
+            <!-- addthis -->
+            <%if(theme.addthis.enable){%>
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script> 
+                <div class="addthis_inline_share_toolbox"></div>
+            <% } %>
+        <% } %>
       <% } %>
     </div>
     <footer class="entry-meta entry-footer">

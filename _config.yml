@@ -79,6 +79,12 @@ search:
     swiftype: # enter swiftype install key here
     baidu: false # you need to disable other search engines to use Baidu search, options: true, false
 
+## reprint declaration
+declaration:
+  enable: true
+  title: '转载声明'
+  tip: 版权所有，商业转载请联系作者，非商业转载请注明出处
+
 # comment ShortName, you can choose only ONE to display.
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname:
@@ -162,8 +168,8 @@ donate:
     enable: false
     button_text: 请我喝杯咖啡吧～
     message: '如果觉得我的文章对您有用，请随意打赏，您的支持将鼓励我继续创作!'
-    wechatImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png
-    alipayImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg
+    wechatImage: 
+    alipayImage: 
 
 # Automatic page load progress bar by PACE.js
 progressBar:
@@ -171,5 +177,5 @@ progressBar:
   themeCSS: https://github.com/HubSpot/pace/raw/master/themes/orange/pace-theme-flash.css    #PATH to PACE theme CSS, support relative / absolute path
 
 # Ad
-ad:
-  google_adsense_ad_client_id:
+# ad:
+#  google_adsense_ad_client_id:
