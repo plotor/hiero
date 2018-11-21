@@ -67,7 +67,8 @@ social:
   Weibo:
   Twitter:
   Facebook:
-  Google-plus:
+  rss: atom.xml
+#  Google-plus:
 #  Instagram:
 #  Pinterest:
 #  Flickr:
