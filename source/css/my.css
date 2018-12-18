@@ -57,3 +57,7 @@ td .gutter .line {
 p.article-more-link {
     text-align:center;
 }
+
+.entry-summary {
+    text-align: justify;
+}
